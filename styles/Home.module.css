@@ -70,3 +70,12 @@
 .Flexing {
   display: flex;
 }
+
+.budget {
+  margin-top: 0px;
+}
+
+.CheckBox {
+  margin-top: 5px;
+  margin-right: 15px;
+}
