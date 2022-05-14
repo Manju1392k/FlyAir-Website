@@ -115,7 +115,7 @@ export default function Home() {
 
       <div className={styles.Forms}>
         <div className={styles.flexinputs}>
-          <h4 className={styles.Formheading}>from</h4>
+          <h4 className={styles.Formheading}>From</h4>
           <input
             placeholder="City Name or Country Name"
             className={styles.formInput}
@@ -192,6 +192,10 @@ export default function Home() {
             <input type="checkbox" className={styles.CheckBox} />
             <h4 className={styles.budget}>Both</h4>
           </div>
+        </div>
+
+        <div>
+          <button className={styles.buttons}>Search Flights</button>
         </div>
       </div>
     </div>
