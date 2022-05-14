@@ -72,6 +72,44 @@ export default function Home() {
       <div className={styles.mainimage}>
         <Image src="/backimg.jpg" height={550} width={1000} />
       </div>
+
+      <h1 className={styles.heading}>Travel The World</h1>
+      <h4 className={styles.heading}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset
+      </h4>
+
+      <h1 className={styles.heading}>Popular destinations</h1>
+      <h4 className={styles.heading}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset
+      </h4>
+
+      <h2 className={styles.heading}>
+        <li>Venice, Italy</li>
+      </h2>
+      <h2 className={styles.heading}>
+        <li>Banff National Park, Canada</li>
+      </h2>
+      <h2 className={styles.heading}>
+        <li>Great Ocean Road, Australia</li>
+      </h2>
+      <h2 className={styles.heading}>
+        <li>Pitons, St Lucia</li>
+      </h2>
+      <h2 className={styles.heading}>
+        <li>Tamil Nadu, India</li>
+      </h2>
     </div>
   );
 }

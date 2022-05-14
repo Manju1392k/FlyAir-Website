@@ -35,3 +35,7 @@
   display: flex;
   justify-content: center;
 }
+
+.heading {
+  margin-left: 4rem;
+}
