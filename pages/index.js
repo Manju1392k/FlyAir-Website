@@ -150,6 +150,49 @@ export default function Home() {
             <h4 className={styles.budget}>100k to 150k</h4>
           </div>
         </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>Total Members</h4>
+          <input
+            placeholder="Total Members"
+            type="number"
+            className={styles.formInput}
+          />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>Total Adults</h4>
+          <input
+            placeholder="Total Adults"
+            type="number"
+            className={styles.formInput}
+          />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>Total Babies</h4>
+          <input
+            placeholder="Total Babies"
+            type="number"
+            className={styles.formInput}
+          />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>Foods</h4>
+          <div className={styles.Flexing}>
+            <input type="checkbox" className={styles.CheckBox} />
+            <h4 className={styles.budget}>Veg</h4>
+          </div>
+          <div className={styles.Flexing}>
+            <input type="checkbox" className={styles.CheckBox} />
+            <h4 className={styles.budget}>Non Veg</h4>
+          </div>
+          <div className={styles.Flexing}>
+            <input type="checkbox" className={styles.CheckBox} />
+            <h4 className={styles.budget}>Both</h4>
+          </div>
+        </div>
       </div>
     </div>
   );

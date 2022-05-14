@@ -43,7 +43,7 @@
 .Forms {
   padding-left: 10rem;
   width: 100vw;
-  height: 15rem;
+  height: 25rem;
   display: grid;
   grid-template-columns: auto auto;
   border: 1px solid red;
@@ -59,7 +59,7 @@
 
 .formInput {
   padding: 8px;
-  padding-left: 4px;
+  padding-left: 10px;
   border-radius: 4px;
   background-color: white;
   border: 1px solid #333;
