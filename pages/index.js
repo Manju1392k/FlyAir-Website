@@ -111,7 +111,7 @@ export default function Home() {
         <li>Tamil Nadu, India</li>
       </h2>
 
-      <h1 className={styles.heading}>Search Your Flights</h1>
+      <h1 className={styles.HeadingTwo}>Search Your Flights</h1>
 
       <div className={styles.Forms}>
         <div className={styles.flexinputs}>
@@ -197,6 +197,10 @@ export default function Home() {
         <div>
           <button className={styles.buttons}>Search Flights</button>
         </div>
+      </div>
+
+      <div className={styles.footer}>
+        <h5>2022 &copy; FlyAir| Inc.</h5>
       </div>
     </div>
   );

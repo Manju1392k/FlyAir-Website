@@ -89,3 +89,20 @@
   color: white;
   font-weight: bold;
 }
+
+.HeadingTwo {
+  margin-top: 1rem;
+  margin-bottom: 4px;
+  margin-left: 4rem;
+}
+
+.footer {
+  width: 100vw;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
