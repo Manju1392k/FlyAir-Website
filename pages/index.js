@@ -68,6 +68,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
+      <div className={styles.mainimage}>
+        <Image src="/backimg.jpg" height={550} width={1000} />
+      </div>
     </div>
   );
 }
