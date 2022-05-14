@@ -111,10 +111,39 @@ export default function Home() {
         <li>Tamil Nadu, India</li>
       </h2>
 
-<div className={styles.Forms}>
-  <h1>Search Your Flights</h1>
-</div>
+      <h1 className={styles.heading}>Search Your Flights</h1>
 
+      <div className={styles.Forms}>
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>from</h4>
+          <input
+            placeholder="City Name or Country Name"
+            className={styles.formInput}
+          />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>To</h4>
+          <input
+            placeholder="City Name or Country Name"
+            className={styles.formInput}
+          />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>On Date</h4>
+          <input placeholder="DD-MM-YYYY Format" className={styles.formInput} />
+        </div>
+
+        <div className={styles.flexinputs}>
+          <h4 className={styles.Formheading}>Price Between</h4>
+          <div className={styles.Flexing}>
+            <label for="20k"> I have a bike</label>
+            <br></br>
+            <input type="checkbox" value="20k To 50k" name="20k" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
