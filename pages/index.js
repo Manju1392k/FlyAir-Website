@@ -138,13 +138,16 @@ export default function Home() {
         <div className={styles.flexinputs}>
           <h4 className={styles.Formheading}>Price Between</h4>
           <div className={styles.Flexing}>
-            <input
-              type="checkbox"
-              value="20k To 50k"
-              name="20k"
-              className={styles.CheckBox}
-            />
+            <input type="checkbox" className={styles.CheckBox} />
             <h4 className={styles.budget}>20k to 50k</h4>
+          </div>
+          <div className={styles.Flexing}>
+            <input type="checkbox" className={styles.CheckBox} />
+            <h4 className={styles.budget}>50k to 100k</h4>
+          </div>
+          <div className={styles.Flexing}>
+            <input type="checkbox" className={styles.CheckBox} />
+            <h4 className={styles.budget}>100k to 150k</h4>
           </div>
         </div>
       </div>
