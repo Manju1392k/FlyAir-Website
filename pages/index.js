@@ -110,6 +110,11 @@ export default function Home() {
       <h2 className={styles.heading}>
         <li>Tamil Nadu, India</li>
       </h2>
+
+<div className={styles.Forms}>
+  <h1>Search Your Flights</h1>
+</div>
+
     </div>
   );
 }
